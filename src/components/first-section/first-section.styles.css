@@ -1,0 +1,9 @@
+.img1-bg {
+    position: relative;
+    margin-top: -20em;
+    z-index: -1;
+}
+
+p {
+    color: #414141;
+}

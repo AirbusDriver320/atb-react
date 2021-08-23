@@ -1,0 +1,19 @@
+.imgGroup {
+    position: relative;
+    margin-bottom: -5rem;
+}
+
+.logoSnS {
+    z-index: 3;
+    height: 1.2rem;
+}
+
+.logoANTO {
+    z-index: 4;
+    height: 2rem;
+}
+
+.cross {
+    z-index: 5;
+    height: 2.1rem;
+}

@@ -1,0 +1,37 @@
+.img-button {
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.slider-desc {
+    padding-left: 7rem;
+    padding-right: 5rem;
+}
+.subtext {
+    margin-top: 10px;
+    margin-right: 0px;
+    color: #414141;
+}
+
+.subtext b {
+    color: black;
+}
+
+.minus {
+    color: #c0c0c0;
+}
+
+.img-margin {
+    margin-left: 5%;
+}
+
+.carousel-item-next:not(.carousel-item-start),
+.active.carousel-item-end {
+  -webkit-transform: translateX(80%);
+  transform: translateX(80%);
+}
+
+.carousel-item-prev:not(.carousel-item-end),
+.active.carousel-item-start {
+  -webkit-transform: translateX(-80%);
+  transform: translateX(-80%);
+}
