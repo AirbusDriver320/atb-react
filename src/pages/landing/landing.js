@@ -12,7 +12,7 @@ function LandingPage() {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch('http://prishtinatask.scoopandspoon.at/api/page.php')
+        fetch('https://rest-api-mern.herokuapp.com/products/atb')
         .then((response) => {
             return response.json();
         }).then((data) => {
